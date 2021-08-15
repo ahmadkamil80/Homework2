@@ -16,6 +16,10 @@
   display: flex;
 }
 
+.header {
+  margin-top: 228px;
+}
+
 .header .img-thumbnail {
   height: 243px;
   width: 243px;
@@ -66,8 +70,16 @@
   font-family: Inter;
 }
 
-.project p {
-  color: green;
+.project .button p {
+  font-family: Heboo;
+  color: #8695A4;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.project h2 {
+  font-family: Heboo;
+  font-weight: bold;
 }
 
 .project h3 {
@@ -82,12 +94,15 @@
 }
 
 .project .btn {
-  margin-right: 30px;
+  font-family: Heboo;
+  padding: 2px 2px;
   width: 62px;
   height: 25px;
+  font-size: 18px;
 }
 
 .footer {
+  padding-top: 100px;
   font-size: 14px;
   font-family: Heboo;
   text-align: center;
