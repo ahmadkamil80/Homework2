@@ -1,0 +1,104 @@
+*, body {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Heboo;
+  src: url(../font/Heebo-VariableFont_wght.ttf);
+  font-family: Inter;
+  src: url(../font/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+.flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .img-thumbnail {
+  height: 243px;
+  width: 243px;
+}
+
+.header .profiel-name p {
+  font-family: Heboo;
+  font-size: 44px;
+  font-weight: bold;
+}
+
+.header .about p {
+  font-size: 16px;
+  font-family: Heboo;
+}
+
+.jumbotron {
+  font-family: Inter;
+}
+
+.jumbotron h4 {
+  color: green;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.jumbotron h5 {
+  font-size: 14px;
+}
+
+.jumbotron .sma p {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.jumbotron .kuliah p {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.jumbotron li {
+  font-size: 12px;
+  margin-left: 13px;
+  color: #52575C;
+}
+
+.project {
+  font-family: Inter;
+}
+
+.project p {
+  color: green;
+}
+
+.project h3 {
+  font-size: 18px;
+  color: green;
+}
+
+.project .img-thumbnail {
+  width: 246px;
+  height: 180px;
+  border-radius: 10%;
+}
+
+.project .btn {
+  margin-right: 30px;
+  width: 62px;
+  height: 25px;
+}
+
+.footer {
+  font-size: 14px;
+  font-family: Heboo;
+  text-align: center;
+}
+
+.img-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */
