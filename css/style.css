@@ -53,11 +53,13 @@
 .jumbotron .sma p {
   font-size: 12px;
   font-style: italic;
+  margin-right: 10px;
 }
 
 .jumbotron .kuliah p {
   font-size: 12px;
   font-style: italic;
+  margin-right: 10px;
 }
 
 .jumbotron li {
